@@ -1,0 +1,11 @@
+## Use GILDAS ASTRO
+
+observatory sma ## Set observatory
+time 0 ## set time as you want in the format dd-mm-yyyy
+
+## Generate a catalog of source, including the calibrators we want to use
+type source.sou
+catalog source.sou
+
+## Plot the source visibility in the sky
+horizon /source /planet /night
